@@ -8,13 +8,13 @@ export default function Header() {
     <div className="container">
       <div className={css.header}>
         <div className={css.right}>
-          <img src={logo} alt="#" />
-          <span>Главная</span>
-          <span>О проекте</span>
+          <img className={css.logo} src={logo} alt="#" />
+          <span>ГЛАВНАЯ</span>
+          <span>О ПРОЕКТЕ</span>
         </div>
         <div className={css.left}>
-          <input type="search" name="" id="" />
-          <img src={iconMan} alt="#" />
+          <input className={css.input} type="search"  />
+          <img className={css.iconMan} src={iconMan} alt="#" />
         </div>
       </div>
     </div>
