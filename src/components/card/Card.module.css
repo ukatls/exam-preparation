@@ -1,0 +1,14 @@
+
+.card{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-image: linear-gradient(210deg,#4bbdd7, #DCF9FE);
+    border-radius: 60px;
+    border: 5px solid #4bbdd7;
+}
+.text{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}

@@ -5,7 +5,6 @@ import css from "./Header.module.css";
 
 export default function Header() {
   return (  
-    <div className="container">
       <div className={css.header}>
         <div className={css.right}>
           <img className={css.logo} src={logo} alt="#" />
@@ -17,6 +16,5 @@ export default function Header() {
           <img className={css.iconMan} src={iconMan} alt="#" />
         </div>
       </div>
-    </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "../card/Card";
 import css from "./Main.module.css";
 
 export default function Main() {
@@ -6,52 +7,14 @@ export default function Main() {
     <div className="container">
       <div className={css.main}>
         <div className={css.card}>
-          <div className={css.text}>
-            <h3>Математика</h3>
-            <p>15 вопросов</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.text}>
-            <h3>Математика</h3>
-            <p>15 вопросов</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.text}>
-            <h3>Математика</h3>
-            <p>15 вопросов</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.text}>
-            <h3>Математика</h3>
-            <p>15 вопросов</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.text}>
-            <h3>Математика</h3>
-            <p>15 вопросов</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.text}>
-            <h3>Математика</h3>
-            <p>15 вопросов</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.text}>
-            <h3>Математика</h3>
-            <p>15 вопросов</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.text}>
-            <h3>Математика</h3>
-            <p>15 вопросов</p>
-          </div>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
     </div>
