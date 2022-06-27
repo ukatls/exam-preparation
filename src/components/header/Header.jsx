@@ -8,8 +8,9 @@ export default function Header() {
       <div className={css.header}>
         <div className={css.right}>
           <img className={css.logo} src={logo} alt="#" />
-          <span>ГЛАВНАЯ</span>
-          <span>О ПРОЕКТЕ</span>
+          
+          <span className={css.text}>ГЛАВНАЯ</span>
+          <span className={css.text}>О ПРОЕКТЕ</span>
         </div>
         <div className={css.left}>
           <input className={css.input} type="search"  />
